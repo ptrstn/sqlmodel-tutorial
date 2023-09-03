@@ -23,7 +23,7 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install flake8 pytest pytest-cov
-          pip install -r requirements.txt
+          pip install -e .
       - name: Run app
         run: |
           python -m tutorial.app
