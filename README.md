@@ -1,10 +1,13 @@
+[![Python Package](https://github.com/ptrstn/sqlmodel-tutorial/actions/workflows/python-package.yml/badge.svg)](https://github.com/ptrstn/sqlmodel-tutorial/actions/workflows/python-package.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 # SQLModel Tutorial - User Guide
 
 This is my personal repository where I follow the official [sqlmodel Tutorial](https://sqlmodel.tiangolo.com/tutorial/).
 
 ## Requirements
 
-- Python 3.10+
+- Python 3.7+
 
 ### Optional
 
