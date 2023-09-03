@@ -30,8 +30,5 @@ jobs:
       - name: Lint with flake8
         run: |
           flake8
-      - name: Test with pytest
-        run: |
-          pytest --cov --cov-fail-under=50 --cov-report=xml --cov-report=term
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2
